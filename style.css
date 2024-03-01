@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "passion";
+    src: url(fontes/PassionOne-Bold.ttf) format(truetype);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "sriracha";
+    src: url(fontes/Sriracha-Regular.ttf) format(truetype);
+    font-weight: normal;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+header {
+    background-color: black;
+    min-height: 150px;
+    height: 150px;
+    color: white;
+    padding-bottom: 50px;
+}
+header > h1 {
+    font-family: "passion";
+    font-variant: small-caps;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 2px 2px 0px black;
+}
+header > p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+    font-size: 1em;
+}
+header  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover{
+    text-decoration: underline;
+}
+main {
+    font-family: "sriracha", cursive;
+    
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+section.normal {
+    background-color: white;
+    color: black;
+}
+section.imagem {
+    background-color: rgb(38, 38, 38);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.544);
+}
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.552);
+}
+section#imagem001 {
+    background: black url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section#imagem002 {
+    background: black url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer a {
+    color: rgb(0, 0, 255);
+}
+footer a:hover{
+    color: red;
+}
+    
